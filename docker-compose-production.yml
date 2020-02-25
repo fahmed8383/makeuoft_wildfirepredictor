@@ -122,6 +122,8 @@ services:
   caddy:
     image: abiosoft/caddy:1.0.3-no-stats
     container_name: caddy
+    environment:
+      ACME_AGREE: "true"
     logging:
       driver: "json-file"
       options:
