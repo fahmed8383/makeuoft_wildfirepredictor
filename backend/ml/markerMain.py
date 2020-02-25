@@ -3,7 +3,7 @@ import time
 import json
 from elasticsearch import Elasticsearch
 
-time.sleep(30)
+time.sleep(180)
 
 # This variable will house all the arrays of markers and continuously update the ES database
 marker = []
@@ -62,5 +62,3 @@ client.connect(solace_url, solace_port, 60) # Connect to Solace Event Broker
 # client.loop_start()
 client.loop_forever()  # Start networking daemon
     
-
-

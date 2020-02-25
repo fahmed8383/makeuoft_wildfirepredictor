@@ -1,4 +1,5 @@
-kibana.172.105.24.55.xip.io:80 {
+kibana.172.105.6.202.xip.io:80 {
+    basicauth / wildfireteam qwerasdf
     header / {
       -Server
       Cache-Control "no-cache, no-store, must-revalidate"
@@ -9,10 +10,16 @@ kibana.172.105.24.55.xip.io:80 {
     }
 }
 
-web.172.105.24.55.xip.io:80/api {
+wildfirepredictor.tech:80/api web.172.105.6.202.xip.io:80/api {
+    tls fahmed4030@gmail.com
+    gzip
     header / {
       -Server
       Cache-Control "no-cache, no-store, must-revalidate"
+      X-Frame-Options "SAMEORIGIN"
+      X-XSS-Protection "1; mode=block"
+      X-Content-Type-Options "nosniff"
+      Referrer-Policy "no-referrer"
     }
     proxy / http://backend:6060 {
       keepalive 32
@@ -20,15 +27,21 @@ web.172.105.24.55.xip.io:80/api {
     }
 }
 
-web.172.105.24.55.xip.io:80 {
+wildfirepredictor.tech:80 web.172.105.6.202.xip.io:80 {
+  tls fahmed4030@gmail.com
+  gzip
   root /frontend/dist
   header / {
     -Server
     Cache-Control "no-cache, no-store, must-revalidate"
+    X-Frame-Options "SAMEORIGIN"
+    X-XSS-Protection "1; mode=block"
+    X-Content-Type-Options "nosniff"
+    Referrer-Policy "no-referrer"
   }
 }
 
-elastic.172.105.24.55.xip.io:80 {
+elastic.172.105.6.202.xip.io:80 {
     header / {
       -Server
       Cache-Control "no-cache, no-store, must-revalidate"
