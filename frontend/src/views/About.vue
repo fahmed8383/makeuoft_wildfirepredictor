@@ -7,7 +7,7 @@
     <div class="group-info-container">
       <div class="columns">
         <div class="column">
-          <div class="group-img"><img src="https://www.legalgeek.co/wp-content/uploads/2018/02/Online-Courts-Hackathon-Team-777x440.jpg" /></div>
+          <div class="group-img"><img src="../assets/images/group-photo.jpg" /></div>
         </div>
         <div class="column">
           <div class="group-desc">
@@ -39,7 +39,7 @@
                 </div-->
                 <div class="media-content">
                   <p class="title is-4">Faiq Ahmed</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+                  <p class="subtitle is-6">ahmedf46@mcmaster.ca</p>
                 </div>
               </div>
               <div class="content">
@@ -68,7 +68,7 @@
                 </div-->
                 <div class="media-content">
                   <p class="title is-4">Umar Khan</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+                  <p class="subtitle is-6">khananm214@mcmaster.ca</p>
                 </div>
               </div>
               <div class="content">
@@ -98,7 +98,7 @@
                 </div-->
                 <div class="media-content">
                   <p class="title is-4">Skylar Liang</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+                  <p class="subtitle is-6" style="font-size:15px;">Skylar.S.Liang2728@gmail.com</p>
                 </div>
               </div>
               <div class="content">
@@ -127,7 +127,7 @@
                 </div-->
                 <div class="media-content">
                   <p class="title is-4">Veerash Palanichamy</p>
-                  <p class="subtitle is-6">@johnsmith</p>
+                  <p class="subtitle is-6">veerashp05@gmail.com</p>
                 </div>
               </div>
               <div class="content">
