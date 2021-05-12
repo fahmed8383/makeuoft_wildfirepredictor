@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "buefy": "^0.8.10",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "core-js": "^3.4.4",
     "vue": "^2.6.10",
     "vue-chartjs": "^3.5.0",
